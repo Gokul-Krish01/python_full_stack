@@ -11,3 +11,5 @@ def home(request):
     return render(request,'home.html',{'data1':data1 ,'marks1':marks })
 def about(request):
     return render(request,'about.html')
+def contact(request):
+    return render(request,'contact.html')
